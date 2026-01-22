@@ -1,4 +1,4 @@
-# Stock Price Predictor with Real Market Data
+# Stock Price Performance with Real Market Data
 
 This application uses LSTM neural networks to predict stock prices using real market data from Yahoo Finance.
 
@@ -44,7 +44,6 @@ Open `stock_predictor.html` in your web browser.
 ### Real-Time Predictions
 - LSTM neural network trained on historical data
 - Sequence-based predictions (10-30 days lookback)
-- Future price forecasting
 - Accuracy metrics (RMSE, percentage accuracy)
 
 ### Interactive UI
@@ -59,23 +58,6 @@ Open `stock_predictor.html` in your web browser.
 - Price change percentage
 - Training loss visualization
 - Responsive design with animations
-
-## 📈 How It Works
-
-1. **Data Loading**: Fetches real stock data from JSON file
-2. **Preprocessing**: Normalizes data to [0,1] range
-3. **Sequence Creation**: Creates time-series sequences for LSTM
-4. **Model Training**: Trains LSTM network on historical data
-5. **Prediction**: Makes predictions on test data and future values
-6. **Visualization**: Displays results with interactive charts
-
-## 🎯 Model Architecture
-
-- **LSTM Layers**: 2 layers with 16 units each
-- **Dense Layers**: 8 units + 1 output unit
-- **Dropout**: 10% to prevent overfitting
-- **Optimizer**: Adam with learning rate 0.001
-- **Loss Function**: Mean Squared Error
 
 ## 📋 Usage Instructions
 
@@ -166,4 +148,5 @@ The script will:
 ### Data Quality
 - Real data provides more accurate predictions
 - Synthetic data is used as fallback
+
 - Check the data source indicator in the UI 
