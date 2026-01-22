@@ -1,7 +1,5 @@
 # Stock Price Performance with Real Market Data
 
-This application uses LSTM neural networks to predict stock prices using real market data from Yahoo Finance.
-
 ## 🚀 Quick Start
 
 ### Step 1: Install Python Dependencies
@@ -150,3 +148,4 @@ The script will:
 - Synthetic data is used as fallback
 
 - Check the data source indicator in the UI 
+
